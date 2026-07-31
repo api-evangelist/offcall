@@ -1,0 +1,22 @@
+# Offcall
+
+> Offcall is a career and practice platform for physicians. It provides confidential, anonymous physician salary and compensation benchmarking, and a verified clinician-to-clinician patient referrals network with HIPAA-compliant messaging for care coordination, delivered through web and mobile apps. Offcall is a portfolio company of Bloomberg Beta.
+
+Offcall does not publish a public developer API, developer portal, OpenAPI specification, SDKs, or a documented webhook/event surface as of this profile. This file is generated from the API Evangelist catalog for discovery purposes; it is not a provider-published llms.txt.
+
+## Products
+- [Salary Tool](https://www.offcall.com/): Confidential, anonymous physician compensation and benefits benchmarking.
+- [Referrals Network](https://referrals.offcall.com/referral-signup/): Verified clinician-to-clinician patient referrals within a city, with HIPAA-compliant messaging.
+
+## Company
+- [Website](https://www.offcall.com/)
+- [About](https://www.offcall.com/about-us)
+- [Learn / Resources](https://www.offcall.com/learn)
+- [Sign Up](https://www.offcall.com/sign-up)
+
+## Legal
+- [Privacy Policy](https://www.offcall.com/legal/privacy-policy)
+- [Terms of Service](https://www.offcall.com/legal/terms-of-service)
+
+## Contact
+- contact@offcall.com

@@ -1,7 +1,24 @@
 aid: offcall
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/offcall.png
 name: Offcall
-description: Offcall is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Offcall is a career and practice platform for physicians, backed by Bloomberg Beta. It
+  provides confidential, anonymous physician salary and compensation benchmarking, and a verified
+  clinician-to-clinician patient referrals network with HIPAA-compliant messaging for care coordination,
+  delivered through web and mobile (iOS and Android) applications. Offcall does not currently publish a
+  public developer API, developer portal, or OpenAPI specification; this profile was surfaced through the
+  Bloomberg Beta portfolio and enriched with the identity and domain-security signals that are publicly
+  available.
 url: https://raw.githubusercontent.com/api-evangelist/offcall/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Physicians
+- Compensation
+- Referrals
+- Clinical
+- HIPAA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.offcall.com/
+- type: SignUp
+  url: https://www.offcall.com/sign-up
+- type: Support
+  url: mailto:contact@offcall.com
+- type: TermsOfService
+  url: https://www.offcall.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.offcall.com/legal/privacy-policy
+- type: DomainSecurity
+  url: security/offcall-domain-security.yml
+- type: LLMsTxt
+  url: llms/offcall-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  pass: local-v1
+  artifacts_added: 2
